@@ -1,0 +1,796 @@
+/* Reglas de CSS para Maquetar una Pagina Basica con Estructura HTML5 y CSS*/
+/*Creado por Ing. Juancito Peña*/
+/* Primera Regla Marenes 0 a todo el Body y su contenido, iniciamos en cero todo*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Segunda Regla para el Body */
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+
+
+/* Tercera Regla para el Contenedor de mi Pagina Web */
+
+.container {
+    width: 70%;
+    height: 100%;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 1px solid #009432;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Cuarta Regla para el Encabezado o Header */
+
+header{
+    color: white;
+    text-align: center;
+    background-color:#f5f6fa;
+    width:100%;
+    height:100%;
+    text-align: center;
+    line-height:100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* Quinta  Regla para la Navegacion o Menu o Nav */
+
+ nav{
+    font-size: 25px;
+    text-align: center;
+    line-height: 60px;
+    background-color:#7f8fa6;
+    border-radius: 25px;
+
+} 
+nav{
+    background-color: #192a56;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 1px;
+    margin: 1px;
+    color: blueviolet;
+}
+
+nav a{
+    text-decoration:none;
+    list-style: none;
+    color: white;
+
+}
+nav a:hover{
+    color: #fdfdfd;
+    font-size: 25px;
+    background-color: #be0d07;
+}
+
+#contenido{
+    width: 70%;
+    height:100%;
+    background-color: white;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+  
+} 
+
+/* REGLA PARA EL FORMATO DEL TITULO H2 EN EL SECTION */
+#contenido h2{
+    font-size:20px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+
+}
+
+
+.parrafo{
+    font-size: 25px;
+    text-align: justify;
+    color: black;
+    margin:5px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+     margin: 25px, 1px, 25px ,1px;
+     padding: 25px;
+}
+.encabezado {   
+    width:100%;
+    height:100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 0 auto !important;
+    margin-right:0 auto !important; 
+}
+
+.banner_img{
+    width:90%;
+    height:100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 0 auto !important;
+    margin-right:0 auto !important;
+}
+
+
+  /* Sectima Regla para el estiolo para el aside */
+
+aside{
+    width:29%;
+    height:100%;
+    background-color: #f5f6fa;
+    float: right;
+    margin-top: 10px;
+
+}
+aside h2{
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
+
+
+aside img{
+    width:90%;
+    height:100%;
+    margin-left: 0 auto !important;
+    margin-right:0 auto !important;
+}
+
+.video {
+    width: 95%;
+    height: 300px;
+    margin-left: 1px auto !important;
+    margin-right:1px auto !important;
+    border-width: 1px;
+  }
+
+  .button {
+    background-color: red;
+    border: 2px solid yellow;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 25px;
+
+  }
+  .button a{
+    text-decoration:none;
+    list-style: none;
+    color: white;
+  }
+
+  .button3 {background-color: red;
+    color: black !important;
+    } /* Red */ 
+
+ 
+
+  .button:hover{
+    background-color: #1cf55d;
+    color: black;
+    font-size: 25px;
+  }
+
+.clearfix{
+    clear: both;
+}
+
+  /* Sectima Regla para el estiolo  del footer */
+
+footer{
+    background-color: #192a56;
+    width: 100%;
+    height: 70px;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 1px auto !important;
+    margin-right:1px auto !important;
+    border-radius: 25px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+}
+footer p
+{   margin-left: 0 auto !important;
+    margin-right:0 auto !important;
+    text-align: center;
+    text-decoration:none;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+    }
+
+    
+    .container {
+        width: 90%;
+        height: 100%;
+        margin: 0px auto;
+        border-radius: 5px;
+        border: 1px solid #009432;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #ffffff;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    /* Cuarta Regla para el Encabezado o Header */
+    
+    header{
+        color: white;
+        text-align: center;
+        background-color:#f5f6fa;
+
+        width:100%;
+        height:100%;
+        text-align: center;
+        line-height:100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /* Quinta  Regla para la Navegacion o Menu o Nav */
+    nav{
+        font-size: 25px;
+        text-align: center;
+        line-height: 60px;
+        background-color:#7f8fa6;
+        border-radius: 25px;
+    
+    } 
+    nav{
+        background-color: #192a56;
+        width: 100%;
+        height: 100%;
+        line-height: 50px;
+        text-align: center;
+        border-bottom: 1px solid black;
+    
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        padding: 1px;
+        margin: 1px;
+        color: red;
+    }
+    
+    nav a{
+        text-decoration:none;
+        list-style: none;
+        color: white;
+    
+    }
+    nav a:hover{
+        color: #192a56;
+        font-size: 25px;
+        background-color: #1cf55d;
+    }
+    
+    #contenido{
+        width: 70%;
+        height:100%;
+        background-color: white;
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px;
+      
+    }
+    
+    /* REGLA PARA EL FORMATO DEL TITULO H2 EN EL SECTION */
+    #contenido h2{
+        font-size:20px;
+        text-align: center;
+        color: black;
+        background-color: whitesmoke;
+    
+    }
+    
+    
+    .parrafo{
+        font-size: 25px;
+        text-align: justify;
+        color: black;
+        margin:5px;
+        background-color: whitesmoke;
+        padding: 10px;
+    }
+    
+    p{
+        font-size: 18px;
+        text-align: justify;
+        color: black;
+         margin: 25px, 1px, 25px ,1px;
+         padding: 25px;
+    }
+    .encabezado {   
+        width:100%;
+        height:100%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 0 auto !important;
+        margin-right:0 auto !important; 
+    }
+    
+    .banner_img{
+        width:100%;
+        height:100%;
+        margin-left: 0 auto !important;
+        margin-right:0 auto !important;
+    }
+    
+      /* Sectima Regla para el estiolo para el aside */
+    
+      aside{
+        width:29%;
+        height:100%;
+        background-color: #f5f6fa;
+        float: right;
+        margin-top: 10px;
+    
+    }
+    aside h2{
+        font-size: 20px;
+        text-align: center;
+        line-height: 50px;
+        color: white;
+    }
+    
+    
+    aside img{
+        width:90%;
+        height:100%;
+        margin-left: 0 auto !important;
+        margin-right:0 auto !important;
+    }
+    
+    .video {
+        width: 95%;
+        height: 300px;
+        margin-left: 1px auto !important;
+        margin-right:1px auto !important;
+        border-width: 1px;
+      }
+      .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+
+      .button3 {background-color: #f44336;} /* Red */ 
+
+
+    .clearfix{
+        clear: both;
+    }
+    
+     /* Sectima Regla para el estiolo  del footer */
+    
+    footer{
+        background-color: #1cf55d;
+        width: 100%;
+        height: 70px;
+        line-height: 100%;
+        text-align: center;
+        border-top: 1px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 1px auto !important;
+        margin-right:1px auto !important;
+    }
+    footer p
+    {   margin-left: 0 auto !important;
+        margin-right:0 auto !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+.container {
+    display:block;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 1px solid #009432;
+    padding-left: 1px;
+    padding-right: 1px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header{
+    color: white;
+    text-align: center;
+    background-color:#f5f6fa;
+    width:100%;
+    height:100%;
+    text-align: center;
+    line-height:100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+h1{
+    font-size: .9em;
+}
+
+
+nav{
+    font-size: 14px;
+    text-align: center;
+    line-height: 60px;
+    background-color:#7f8fa6;
+    border-radius: 25px;
+
+} 
+nav{
+    background-color: #192a56;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 1px;
+    margin: 1px;
+    color: red;
+}
+
+nav a{
+    text-decoration:none;
+    list-style: none;
+    color: white;
+
+}
+nav a:hover{
+    color: #192a56;
+    font-size: 15px;
+    background-color: #1cf55d;
+}
+
+
+
+ #contenido{
+    width:100%;
+    height:100%;
+    background-color: white;
+    float: left;
+    margin-right: 1px;
+    margin-top: 1px;
+}
+
+#contenido h2{
+    font-size:20px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+
+}
+
+
+.parrafo{
+    font-size: 25px;
+    text-align: justify;
+    color: black;
+    margin:5px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+     margin: 25px, 1px, 25px ,1px;
+     padding: 25px;
+}
+.encabezado {   
+    width:100%;
+    height:100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 0 auto !important;
+    margin-right:0 auto !important; 
+}
+
+.banner_img{
+    width:100%;
+    height:100%;
+    margin-left: 0 auto !important;
+    margin-right:0 auto !important;
+}
+
+
+.articulos{
+    font-size: 1em;
+    text-align: justify;
+    line-height: 200px;
+    color: white;
+}
+
+
+  aside{
+    width:29%;
+    height:100%;
+    background-color: #f5f6fa;
+    float: right;
+    margin-top: 10px;
+
+}
+aside h2{
+    font-size: 16px;
+    text-align: center;
+    line-height: 100%;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+aside img{
+    width:90%;
+    height:100%;
+    margin-left: 0 auto !important;
+    margin-right:0 auto !important;
+}
+
+.video {
+    width: 95%;
+    height: auto;
+    margin-left: 1px auto !important;
+    margin-right:1px auto !important;
+    border-width: 1px;
+  }
+.clearfix{
+    clear: both;
+}
+
+
+
+
+footer{
+    background-color: #1cf55d;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 1024px) {
+    .container {
+        display:block;
+        width: 80%;
+        height: 100%;
+        margin: 0px auto;
+        border-radius: 5px;
+        border: 1px solid #009432;
+        padding-left: 1px;
+        padding-right: 1px;
+        background-color: #ffffff;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    header{
+        color: white;
+        text-align: center;
+        background-color:#f5f6fa;
+        width:100%;
+        height:100%;
+        text-align: center;
+        line-height:100px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        
+    }
+    h1{
+        font-size: .9em;
+    }
+    /* Quinta  Regla para la Navegacion o Menu o Nav */
+    
+    nav{
+        font-size: 25px;
+        text-align: center;
+        line-height: 60px;
+        background-color:#7f8fa6;
+        border-radius: 25px;
+    
+    } 
+    nav{
+        background-color: #192a56;
+        width: 100%;
+        height: 100%;
+        line-height: 50px;
+        text-align: center;
+        border-bottom: 1px solid black;
+    
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        padding: 1px;
+        margin: 1px;
+        color: red;
+    }
+    
+    nav a{
+        text-decoration:none;
+        list-style: none;
+        color: white;
+    
+    }
+    nav a:hover{
+        color: #192a56;
+        font-size: 25px;
+        background-color: #1cf55d;
+    }
+    
+
+    
+     #contenido{
+        width:70%;
+        height:100%;
+        background-color: white;
+        float: left;
+        margin-right: 1px;
+        margin-top: 1px;
+    }
+    
+    #contenido h2{
+        font-size:20px;
+        text-align: center;
+        color: black;
+        background-color: whitesmoke;
+    
+    }
+    
+    
+    .parrafo{
+        font-size: 25px;
+        text-align: justify;
+        color: black;
+        margin:5px;
+        background-color: whitesmoke;
+        padding: 10px;
+    }
+    
+    p{
+        font-size: 18px;
+        text-align: justify;
+        color: black;
+         margin: 25px, 1px, 25px ,1px;
+         padding: 25px;
+    }
+    .encabezado {   
+        width:100%;
+        height:100%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 0 auto !important;
+        margin-right:0 auto !important; 
+    }
+    
+    .banner_img{
+        width:100%;
+        height:100%;
+        margin-left: 0 auto !important;
+        margin-right:0 auto !important;
+    }
+    
+    
+    .articulos{
+        font-size: 1em;
+        text-align: justify;
+        line-height: 200px;
+        color: white;
+    }
+ 
+    
+      aside{
+        width:29%;
+        height:100%;
+        background-color: #f5f6fa;
+        float: right;
+        margin-top: 10px;
+    
+    }
+    aside h2{
+        font-size: 16px;
+        text-align: center;
+        line-height: 100%;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    aside img{
+        width:90%;
+        height:100%;
+        margin-left: 0 auto !important;
+        margin-right:0 auto !important;
+    }
+    
+    .video {
+        width: 95%;
+        height: auto;
+        margin-left: 1px auto !important;
+        margin-right:1px auto !important;
+        border-width: 1px;
+      }
+    .clearfix{
+        clear: both;
+    }
+    
+        
+    footer{
+        background-color: #1cf55d;
+        width: 100%;
+        height: 100%;
+        line-height: 100%;
+        text-align: center;
+        border-top: 1px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    }
